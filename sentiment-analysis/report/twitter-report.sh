@@ -1,0 +1,2 @@
+#python twitter_report_v1.py twitter "BREXIT" "analysed-report-brexit-sdgs/analysed_twitter1_brexit_2019-05-13_2019-05-16.json"
+python twitter_report_v1.py twitter "UNSDG" "analysed-report-brexit-sdgs/analysed_twitter1_#SDGs_2019-05-17_2019-05-20.json"

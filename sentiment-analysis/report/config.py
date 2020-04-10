@@ -1,0 +1,1 @@
+S3_BUCKET = 'pre-sentimental-analysis'

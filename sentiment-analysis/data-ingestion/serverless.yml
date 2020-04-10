@@ -1,0 +1,35 @@
+service: lmb-use1-1
+
+plugins:
+  - serverless-python-requirements
+
+package:
+  exclude:
+    - README.md
+
+provider:
+  name: aws
+  runtime: python3.6
+  region: us-east-1
+  stage: ${opt:stage, ''}
+  memorySize: 128
+  timeout: 900
+  
+# Lambda function's IAM Role
+  iamRoleStatements:
+    - Effect: "Allow"
+      Action:
+        - "logs:FilterLogEvents"
+        - "logs:CreateLogStream"
+        - "s3:PutObject"
+        - "s3:GetObject"
+        - "s3:DeleteObject"
+        - "sqs:SendMessage"
+      Resource: "*"
+#Lambda function   
+functions:
+  twitter-data-ingestion:
+    handler: twitter_data_ingestion.lambda_handler
+    reservedConcurrency: 2
+    events:
+      - sqs: "arn:aws:sqs:us-east-1:069653090426:sqs-use1-twitter-data-ingestion"

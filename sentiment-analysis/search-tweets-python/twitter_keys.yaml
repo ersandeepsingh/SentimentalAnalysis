@@ -1,0 +1,28 @@
+search_tweets_api:
+  account_type: premium
+  endpoint: https://api.twitter.com/1.1/tweets/search/30day/dev.json
+  consumer_key: DbZtm6z6NeHJSA8En4AaY0YID
+  consumer_secret: nvDPLbdBycgWG3ki9zBAjBv86yeHFB2xZkSLyUrlLLXZeQoyyS
+  
+search_tweets_pk_api:
+  account_type: premium
+  endpoint: https://api.twitter.com/1.1/tweets/search/30day/dev.json
+  consumer_key: S2aoMTgL7E7tC8pGGiE9JMk68
+  consumer_secret: 6X0fg29G5hECrDBeRfFKESInLbgwDXdKPT5LrioLhgoBNeVzpB  
+
+enterprise_search_args:
+  account_type: enterprise
+  endpoint: https://api.twitter.com/1.1/tweets/search/30day/my_env_name.json
+  username: sydchess
+  password: Tricon1!
+
+
+search_tweets_fullarchive_dev:
+  account_type: premium
+  endpoint: https://api.twitter.com/1.1/tweets/search/fullarchive/dev.json
+  bearer_token: AAAAAAAAAAAAAAAAAAAAAG9A9wAAAAAAevQMBqTqDUMGADX8rJG12GHDSjM%3DQasp1y1gpuioAYmDcI8HDEAbCENonWxEttW9JjyzatxgcKbgTT
+
+
+pk:
+  1110178082500108294-LksyKfnhFjAdUoFCnBUAA6Fes0HxQ0 (Access token)
+  suuScStjb1olFZdrEfUkYRNwnMwiE2K36tFI6R7ZmOgnP (Access token secret)

@@ -1,0 +1,11 @@
+__pycache__
+.project
+.git
+
+# Serverless directories
+.serverless
+
+.nyc_output
+
+.idea
+.vscode

@@ -1,0 +1,18 @@
+# Variables that contains the user credentials to access Twitter API 
+# TWITTER_ACCESS_TOKEN = "3245380490-xSSrZihMdm22r5ECPHuSIjB0tJosKdxBNEFAJ9X"
+# TWITTER_ACCESS_TOKEN_SECRET = "87rHFk0AvJPUwm4VsFNwe7L5kqNRpm0MxkYniNQvrARl2"
+# TWITTER_CONSUMER_KEY = "D5EiGxvu7RS9jG57GsyOdJb1g"
+# TWITTER_CONSUMER_SECRET = "HH9Odt0ZnIPMCgjLiDJ2lIPLi4GJjpDl3dOKMdfgUJDZvOQDaw"
+
+
+#anwar access token
+TWITTER_ACCESS_TOKEN = "1110178082500108294-LksyKfnhFjAdUoFCnBUAA6Fes0HxQ0"
+TWITTER_ACCESS_TOKEN_SECRET = "suuScStjb1olFZdrEfUkYRNwnMwiE2K36tFI6R7ZmOgnP"
+TWITTER_CONSUMER_KEY = "S2aoMTgL7E7tC8pGGiE9JMk68"
+TWITTER_CONSUMER_SECRET = "6X0fg29G5hECrDBeRfFKESInLbgwDXdKPT5LrioLhgoBNeVzpB"
+
+
+SQS_URL = 'https://sqs.us-east-1.amazonaws.com/069653090426/sqs-use1-sentiment-analysis'
+
+S3_BUCKET = 'pre-sentimental-analysis'
+
